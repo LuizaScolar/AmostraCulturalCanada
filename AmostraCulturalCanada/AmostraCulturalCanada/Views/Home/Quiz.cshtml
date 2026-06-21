@@ -74,21 +74,21 @@
     <div class="quiz-container">
 
         <div class="quiz-header" id="quizHeader">
-            <h2 style="color: #ff0000; font-weight: 800;">DESAFIO DAS RAÍZES</h2>
+            <h2 class="led-red" style="color: #ff0000; font-weight: 800;">DESAFIO DAS RAÍZES</h2>
             <p class="text-secondary">Bem-vindo(a), <strong>@ViewBag.NomeUsuario</strong>! Teste seus conhecimentos sobre a cultura do Canadá.</p>
         </div>
 
         <div id="quizArea">
-            <h3 class="question-title" id="questionText">Carregando pergunta...</h3>
+            <h3 class="question-title led-red" id="questionText">Carregando pergunta...</h3>
             <div id="optionsArea">
             </div>
             <div class="text-end">
-                <button class="btn-next" id="btnNext" onclick="nextQuestion()">Próxima Pergunta ></button>
+                <button class="btn-next led-red" id="btnNext" onclick="nextQuestion()">Próxima Pergunta ></button>
             </div>
         </div>
 
         <div class="result-box" id="resultArea">
-            <h2 style="color: white; font-weight: bold;">SEU RESULTADO</h2>
+            <h2 class="led-red" style="color: white; font-weight: bold;">SEU RESULTADO</h2>
             <div class="score-text" id="scoreDisplay">0/5</div>
             <p class="text-secondary mt-3" id="feedbackText"></p>
             <a href="@Url.Action("Index", "Home")" class="btn btn-outline-light mt-4">Voltar para a Home</a>

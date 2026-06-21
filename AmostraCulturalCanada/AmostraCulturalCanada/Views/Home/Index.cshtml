@@ -2,7 +2,97 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    /* Estilos específicos da Home para ficar igual ao seu Design */
+    .hero-section {
+        /* Imagem de fundo temporária pegando do Unsplash (Lago Moraine, Canadá) */
+        background-image: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.9)), url('https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2000&auto=format&fit=crop');
+        background-size: cover;
+        background-position: center;
+        height: 85vh; /* Ocupa quase toda a altura da tela */
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-top: -16px; /* Ajuste para colar no menu */
+    }
+
+    .official-guide {
+        color: #ff0000;
+        font-weight: 800;
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    .hero-title-red {
+        color: #ff0000;
+        font-size: 8rem; /* Letra GIGANTE */
+        font-weight: 900;
+        line-height: 0.85;
+        margin: 0;
+        text-transform: uppercase;
+        font-family: 'Arial Black', Impact, sans-serif; /* Fonte pesada */
+    }
+
+    .hero-title-white {
+        color: #ffffff;
+        font-size: 8rem; /* Letra GIGANTE */
+        font-weight: 900;
+        line-height: 0.85;
+        margin: 0;
+        text-transform: uppercase;
+        font-family: 'Arial Black', Impact, sans-serif;
+    }
+
+    .hero-subtitle {
+        color: #aaaaaa;
+        max-width: 600px;
+        margin-top: 30px;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .btn-start {
+        background-color: #ff0000;
+        color: white;
+        padding: 12px 35px;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.9rem;
+        transition: 0.3s;
+    }
+
+        .btn-start:hover {
+            background-color: #cc0000;
+            color: white;
+        }
+</style>
+
+<div class="hero-section">
+    <div class="container px-5">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="official-guide">— OFFICIAL TOURISM GUIDE EST. 1867</p>
+
+                <h1 class="hero-title-red">CONHEÇA</h1>
+                <h1 class="hero-title-white">CANADA</h1>
+
+                <div class="hero-subtitle row">
+                    <div class="col-md-6">
+                        <p>Das montanhas rochosas às antigas florestas boreais do norte, a natureza selvagem do Canadá se estende além da imaginação. Experimente 10 milhões de km² de beleza crua e indomável.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Descubra lagos glaciais refletindo céus cerúleos, e cidades que pulsam com uma cultura rica. O Canadá não é apenas um destino — é uma transformação.</p>
+                    </div>
+                </div>
+
+                <button class="btn-start">START SEEKING ></button>
+            </div>
+        </div>
+    </div>
 </div>

@@ -37,6 +37,18 @@ namespace AmostraCulturalCanada.Controllers
 
         public IActionResult Quiz()
         {
+            // Tenta pegar o ID do usuário na sessão
+            var usuarioId = HttpContext.Session.GetInt32("UsuarioId");
+
+            // Se não tiver ID, significa que não está logado
+            if (usuarioId == null)
+            {
+                ViewBag.Erro = "Você precisa fazer login para acessar o Quiz!";
+                return View("Login"); // Manda de volta pra tela de login
+            }
+
+            // Se estiver logado, pega o nome dele para darmos boas-vindas na tela!
+            ViewBag.NomeUsuario = HttpContext.Session.GetString("UsuarioNome");
             return View();
         }
 

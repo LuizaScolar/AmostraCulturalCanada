@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
@@ -71,6 +71,19 @@
               "ViewState": "AgIAAGAAAAAAAAAAAAAwwHEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-21T21:06:11.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AmostraCulturalCanada\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:25:38.776Z",
               "EditorCaption": ""
             },
             {
@@ -84,19 +97,6 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T20:52:08.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AmostraCulturalCanada\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T20:25:38.776Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

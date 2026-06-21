@@ -101,15 +101,194 @@
         </main>
     </div>
 
-    <footer class="footer mt-5 py-4">
-        <div class="container d-flex justify-content-between align-items-center">
+    <style>
+            .footer-custom {
+                background: linear-gradient(to bottom, rgba(10,10,10,0) 0%, rgba(5,5,5,1) 30%, #000000 100%);
+                color: #aaaaaa;
+                padding: 80px 0 40px 0;
+                margin-top: 40px;
+            }
+
+            .footer-logo {
+                color: #ffffff;
+                font-size: 2rem;
+                font-weight: 900;
+                letter-spacing: 2px;
+            }
+
+            .footer-top-tags {
+                font-size: 0.75rem;
+                letter-spacing: 2px;
+                color: #888;
+                text-transform: uppercase;
+                margin-top: 10px;
+            }
+
+                .footer-top-tags span {
+                    margin: 0 15px;
+                }
+
+            .footer-description {
+                max-width: 600px;
+                margin: 25px auto;
+                color: #666;
+                font-size: 0.95rem;
+                line-height: 1.6;
+            }
+
+            .newsletter-box {
+                max-width: 450px;
+                margin: 0 auto 40px auto;
+                display: flex;
+                gap: 10px;
+            }
+
+                .newsletter-box input {
+                    background-color: #111 !important;
+                    border: 1px solid #333 !important;
+                    color: white !important;
+                    padding: 10px 15px;
+                    border-radius: 4px;
+                    width: 100%;
+                }
+
+                    .newsletter-box input:focus {
+                        border-color: #ff0000 !important;
+                        outline: none;
+                    }
+
+            .btn-newsletter {
+                background-color: #ff0000;
+                color: white;
+                border: none;
+                padding: 10px 25px;
+                font-weight: bold;
+                border-radius: 4px;
+                text-transform: uppercase;
+                transition: 0.3s;
+            }
+
+                .btn-newsletter:hover {
+                    background-color: #cc0000;
+                }
+
+            .footer-divider {
+                border-color: #222;
+                margin: 30px 0;
+                opacity: 0.5;
+            }
+
+            .footer-nav {
+                margin-bottom: 40px;
+            }
+
+                .footer-nav a {
+                    color: #ffffff !important;
+                    text-decoration: none;
+                    margin: 0 20px;
+                    font-size: 0.95rem;
+                    font-weight: 500;
+                    transition: color 0.3s;
+                }
+
+                    .footer-nav a:hover {
+                        color: #ff0000 !important;
+                    }
+
+            .social-icons {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin-bottom: 40px;
+            }
+
+            .social-icon-btn {
+                width: 45px;
+                height: 45px;
+                background-color: #151515;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #ffffff !important; /* FORÇANDO O BRANCO PARA MATAR O AZUL */
+                text-decoration: none !important;
+                font-weight: bold;
+                font-size: 1.2rem;
+                transition: 0.3s;
+            }
+
+                .social-icon-btn:hover {
+                    background-color: #ff0000;
+                    transform: translateY(-3px);
+                }
+
+            .footer-bottom-links {
+                font-size: 0.8rem;
+                color: #666;
+                margin-bottom: 15px;
+            }
+
+                .footer-bottom-links a {
+                    color: #666 !important;
+                    text-decoration: none;
+                    margin: 0 10px;
+                    transition: color 0.3s;
+                }
+
+                    .footer-bottom-links a:hover {
+                        color: #aaaaaa !important;
+                    }
+    </style>
+
+    <footer class="footer-custom text-center">
+        <div class="container">
+
             <div>
-                <h5 style="color: white; font-weight: bold;">VISIT <span style="color: red;" class="led-red">CANADA</span></h5>
-                <small>© 2026 Visit Canada Initiative - Cultura e Folclore</small>
+                <div class="footer-logo">
+                    <span class="led-red">VISIT</span> CANADA
+                </div>
+                <div class="footer-top-tags d-flex justify-content-center flex-wrap">
+                    <span>• HISTÓRIA NACIONAL</span>
+                    <span>• CULTURA RAIZ</span>
+                    <span>• MITOS E LENDAS</span>
+                </div>
             </div>
-            <div>
-                <small>Ottawa, ON - Canada</small>
+
+            <div class="footer-description">
+                O guia definitivo para desbravar as tradições ancestrais e os mistérios que forjaram o Grande Norte. Mergulhe na nossa história e teste seus conhecimentos.
             </div>
+
+            <div class="newsletter-box">
+                <input type="email" placeholder="Receba novas lendas no seu e-mail...">
+                <button class="btn-newsletter">Assinar</button>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="footer-nav">
+                <a asp-controller="Home" asp-action="Historia">História</a>
+                <a asp-controller="Home" asp-action="Cultura">Cultura</a>
+                <a asp-controller="Home" asp-action="Folclore">Folclore</a>
+                <a asp-controller="Home" asp-action="Quiz">Quiz</a>
+                <a asp-controller="Home" asp-action="Login">Login</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" class="social-icon-btn">X</a>
+                <a href="#" class="social-icon-btn">In</a>
+                <a href="#" class="social-icon-btn">Ig</a>
+                <a href="#" class="social-icon-btn">Yt</a>
+            </div>
+
+            <div class="footer-bottom-links">
+                <a href="#">Termos & Condições</a> |
+                <a href="#">Política de Privacidade</a> |
+                <a href="#">Avisos Legais</a>
+            </div>
+            <div style="font-size: 0.75rem; color: #444;">
+                &copy; 2026 Visit Canada Initiative. Todos os direitos reservados.
+            </div>
+
         </div>
     </footer>
 

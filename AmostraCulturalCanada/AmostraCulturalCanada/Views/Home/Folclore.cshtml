@@ -8,7 +8,7 @@
         padding: 60px 0 30px 0;
         border-bottom: 2px solid #ff0000;
         margin-bottom: 40px;
-        background-image: linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.95)), url('https://images.unsplash.com/photo-1542662565-7e4b66bae529?q=80&w=2000&auto=format&fit=crop'); /* Fundo misterioso de floresta */
+        background-image: linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.95)), url('https://images.unsplash.com/photo-1542662565-7e4b66bae529?q=80&w=2000&auto=format&fit=crop');
         background-size: cover;
         background-position: center;
     }
@@ -30,7 +30,7 @@
         position: relative;
         overflow: hidden;
     }
-        /* Efeito de borda vermelha superior no card */
+
         .legend-card::before {
             content: '';
             position: absolute;
@@ -70,6 +70,13 @@
         line-height: 1.6;
         font-size: 0.95rem;
     }
+
+    .legend-img {
+        width: 100%;
+        max-height: 220px;
+        object-fit: cover;
+        border: 1px solid #222;
+    }
 </style>
 
 <div class="page-header text-center">
@@ -85,6 +92,7 @@
             <div class="legend-card">
                 <span class="legend-origin led-red">ORIGEM: POVOS ALGONQUIANOS</span>
                 <h3 class="legend-title led-red">O Wendigo</h3>
+                <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 legend-img" alt="Floresta Sombria Congelada">
                 <p class="legend-text">Uma das lendas mais aterrorizantes do Canadá. O Wendigo é um espírito maligno do inverno e da fome. A lenda conta que humanos que recorriam ao canibalismo durante os rigorosos invernos se transformavam nessa criatura esquelética, gigante e com um coração de gelo, eternamente condenada a vagar pelas florestas em busca de carne humana.</p>
             </div>
         </div>
@@ -93,6 +101,7 @@
             <div class="legend-card">
                 <span class="legend-origin led-red">ORIGEM: MITOLOGIA INUIT</span>
                 <h3 class="legend-title led-red">Qalupalik</h3>
+                <img src="https://images.unsplash.com/photo-1516941010182-f5424707db9a?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 legend-img" alt="Águas Gélidas e Rachaduras de Gelo">
                 <p class="legend-text">Nas águas congeladas do Ártico, vive a Qalupalik. É descrita como uma criatura humanóide com pele verde, cabelos longos e unhas compridas, que usa um "amauti" (uma veste tradicional inuit para carregar bebês). A lenda era contada pelos anciões para impedir que as crianças brincassem perigosamente perto das bordas do gelo fino, pois a Qalupalik as puxaria para o fundo do mar.</p>
             </div>
         </div>
@@ -101,6 +110,7 @@
             <div class="legend-card">
                 <span class="legend-origin led-red">ORIGEM: PIONEIROS FRANCO-CANADENSES</span>
                 <h3 class="legend-title led-red">La Chasse-galerie (A Canoa Voadora)</h3>
+                <img src="https://images.unsplash.com/photo-1519074069444-1ba4cb16a2a9?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 legend-img" alt="Canoa em Lago Noturno com Neblina">
                 <p class="legend-text">Uma lenda clássica dos madeireiros isolados nos acampamentos de inverno. Com saudades de casa na véspera de Ano Novo, eles faziam um pacto com o diabo para fazer sua canoa voar pelos céus até suas vilas. A condição? Não podiam xingar nem tocar a canoa em cruzes de igrejas durante o voo de volta, caso contrário, perderiam suas almas para sempre.</p>
             </div>
         </div>
@@ -109,6 +119,7 @@
             <div class="legend-card">
                 <span class="legend-origin led-red">ORIGEM: POVO SYILX (NHA-A-ITK)</span>
                 <h3 class="legend-title led-red">Ogopogo</h3>
+                <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 legend-img" alt="Lago Misterioso Profundo">
                 <p class="legend-text">Muito antes do Monstro do Lago Ness ficar famoso, os povos das Primeiras Nações da Colúmbia Britânica já falavam do <strong>Naitaka</strong> (o demônio do lago), hoje conhecido como Ogopogo. É descrito como uma grande serpente marinha que habita as profundezas do Lago Okanagan. Os nativos costumavam jogar pequenos animais na água como oferenda para garantir uma travessia segura.</p>
             </div>
         </div>

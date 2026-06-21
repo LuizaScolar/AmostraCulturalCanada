@@ -1,0 +1,114 @@
+﻿@model AmostraCulturalCanada.Models.Usuario
+
+@{
+    ViewData["Title"] = "Acesso";
+}
+
+<style>
+    .auth-container {
+        max-width: 900px;
+        margin: 60px auto;
+        background-color: #111;
+        border-radius: 8px;
+        border: 1px solid #222;
+        overflow: hidden;
+    }
+    .auth-box {
+        padding: 40px;
+    }
+    .auth-border-right {
+        border-right: 1px solid #222;
+    }
+    .auth-title {
+        color: #ff0000;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+    .form-control-custom {
+        background-color: #1a1a1a !important;
+        border: 1px solid #333 !important;
+        color: white !important;
+        padding: 12px !important;
+        border-radius: 4px !important;
+    }
+    .form-control-custom:focus {
+        border-color: #ff0000 !important;
+        box-shadow: none !important;
+    }
+    .btn-auth {
+        background-color: #ff0000;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        text-transform: uppercase;
+        margin-top: 15px;
+        transition: 0.3s;
+    }
+    .btn-auth:hover {
+        background-color: #cc0000;
+    }
+    .error-text {
+        color: #ff4d4d;
+        font-size: 0.85rem;
+    }
+</style>
+
+<div class="container">
+    @if (TempData["Sucesso"] != null)
+    {
+        <div class="alert alert-success bg-dark text-success border-success mt-4 text-center">
+            @TempData["Sucesso"]
+        </div>
+    }
+
+    <div class="auth-container row g-0">
+        <div class="col-md-6 auth-box auth-border-right">
+            <h2 class="auth-title">Entrar</h2>
+
+            @if (ViewBag.Erro != null)
+            {
+                <div class="alert alert-danger bg-dark text-danger border-danger p-2 small">@ViewBag.Erro</div>
+            }
+
+            <form asp-action="Logar" method="post">
+                <div class="mb-3">
+                    <label class="form-label text-secondary small">E-mail</label>
+                    <input type="email" name="email" class="form-control form-control-custom" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-secondary small">Senha</label>
+                    <input type="password" name="senha" class="form-control form-control-custom" required />
+                </div>
+                <button type="submit" class="btn-auth">Acessar o Quiz</button>
+            </form>
+        </div>
+
+        <div class="col-md-6 auth-box">
+            <h2 class="auth-title">Criar Conta</h2>
+
+            <form asp-action="Registrar" method="post">
+                <div class="mb-3">
+                    <label class="form-label text-secondary small">Nome Completo</label>
+                    <input asp-for="Nome" type="text" class="form-control form-control-custom" />
+                    <span asp-validation-for="Nome" class="error-text"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-secondary small">E-mail Válido</label>
+                    <input asp-for="Email" type="email" class="form-control form-control-custom" />
+                    <span asp-validation-for="Email" class="error-text"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-secondary small">Escolha uma Senha</label>
+                    <input asp-for="Senha" type="password" class="form-control form-control-custom" />
+                    <span asp-validation-for="Senha" class="error-text"></span>
+                </div>
+                <button type="submit" class="btn-auth" style="background-color: #222; border: 1px solid #ff0000;">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</div>

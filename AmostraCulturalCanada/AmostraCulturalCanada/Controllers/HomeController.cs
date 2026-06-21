@@ -11,6 +11,26 @@ namespace AmostraCulturalCanada.Controllers
             return View();
         }
 
+        public IActionResult Historia()
+        {
+            return View();
+        }
+
+        public IActionResult Cultura()
+        {
+            return View();
+        }
+
+        public IActionResult Folclore()
+        {
+            return View();
+        }
+
+        public IActionResult Quiz()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

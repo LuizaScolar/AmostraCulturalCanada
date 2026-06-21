@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Folclore e Lendas";
+}
+
+<style>
+    .page-header {
+        background-color: #050505;
+        padding: 60px 0 30px 0;
+        border-bottom: 2px solid #ff0000;
+        margin-bottom: 40px;
+        background-image: linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.95)), url('https://images.unsplash.com/photo-1542662565-7e4b66bae529?q=80&w=2000&auto=format&fit=crop'); /* Fundo misterioso de floresta */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section-title {
+        color: #ff0000;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 2rem;
+    }
+
+    .legend-card {
+        background-color: #0a0a0a;
+        border: 1px solid #333;
+        padding: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+        /* Efeito de borda vermelha superior no card */
+        .legend-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #ff0000;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .legend-card:hover::before {
+            transform: scaleX(1);
+        }
+
+    .legend-title {
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    .legend-origin {
+        color: #ff0000;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .legend-text {
+        color: #aaaaaa;
+        line-height: 1.6;
+        font-size: 0.95rem;
+    }
+</style>
+
+<div class="page-header text-center">
+    <div class="container">
+        <h1 class="section-title">MITOS E LENDAS</h1>
+        <p class="text-secondary mt-3">As histórias sussurradas ao redor das fogueiras no frio congelante do norte.</p>
+    </div>
+</div>
+
+<div class="container px-4">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="legend-card">
+                <span class="legend-origin">ORIGEM: POVOS ALGONQUIANOS</span>
+                <h3 class="legend-title">O Wendigo</h3>
+                <p class="legend-text">Uma das lendas mais aterrorizantes do Canadá. O Wendigo é um espírito maligno do inverno e da fome. A lenda conta que humanos que recorriam ao canibalismo durante os rigorosos invernos se transformavam nessa criatura esquelética, gigante e com um coração de gelo, eternamente condenada a vagar pelas florestas em busca de carne humana.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="legend-card">
+                <span class="legend-origin">ORIGEM: MITOLOGIA INUIT</span>
+                <h3 class="legend-title">Qalupalik</h3>
+                <p class="legend-text">Nas águas congeladas do Ártico, vive a Qalupalik. É descrita como uma criatura humanóide com pele verde, cabelos longos e unhas compridas, que usa um "amauti" (uma veste tradicional inuit para carregar bebês). A lenda era contada pelos anciões para impedir que as crianças brincassem perigosamente perto das bordas do gelo fino, pois a Qalupalik as puxaria para o fundo do mar.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="legend-card">
+                <span class="legend-origin">ORIGEM: PIONEIROS FRANCO-CANADENSES</span>
+                <h3 class="legend-title">La Chasse-galerie (A Canoa Voadora)</h3>
+                <p class="legend-text">Uma lenda clássica dos madeireiros isolados nos acampamentos de inverno. Com saudades de casa na véspera de Ano Novo, eles faziam um pacto com o diabo para fazer sua canoa voar pelos céus até suas vilas. A condição? Não podiam xingar nem tocar a canoa em cruzes de igrejas durante o voo de volta, caso contrário, perderiam suas almas para sempre.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="legend-card">
+                <span class="legend-origin">ORIGEM: POVO SYILX (NHA-A-ITK)</span>
+                <h3 class="legend-title">Ogopogo</h3>
+                <p class="legend-text">Muito antes do Monstro do Lago Ness ficar famoso, os povos das Primeiras Nações da Colúmbia Britânica já falavam do <strong>Naitaka</strong> (o demônio do lago), hoje conhecido como Ogopogo. É descrito como uma grande serpente marinha que habita as profundezas do Lago Okanagan. Os nativos costumavam jogar pequenos animais na água como oferenda para garantir uma travessia segura.</p>
+            </div>
+        </div>
+    </div>
+</div>

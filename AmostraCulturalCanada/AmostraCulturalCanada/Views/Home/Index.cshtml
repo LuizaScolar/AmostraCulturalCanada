@@ -3,95 +3,77 @@
 }
 
 <style>
-    /* Estilos específicos da Home para ficar igual ao seu Design */
     .hero-section {
-        /* Imagem de fundo temporária pegando do Unsplash (Lago Moraine, Canadá) */
-        background-image: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.9)), url('https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2000&auto=format&fit=crop');
+        /* Opacidade ajustada para a imagem aparecer mais */
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.85)), url('https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2000&auto=format&fit=crop');
         background-size: cover;
         background-position: center;
-        height: 85vh; /* Ocupa quase toda a altura da tela */
+        min-height: 95vh; /* Tela inicial mais espaçada */
         display: flex;
         align-items: center;
-        position: relative;
-        margin-top: -16px; /* Ajuste para colar no menu */
+        padding-top: 50px; /* Evita colar no menu */
     }
 
-    .official-guide {
-        color: #ff0000;
-        font-weight: 800;
-        letter-spacing: 3px;
-        font-size: 0.8rem;
-        margin-bottom: 0;
-        text-transform: uppercase;
-    }
-
-    .hero-title-red {
-        color: #ff0000;
-        font-size: 8rem; /* Letra GIGANTE */
+    .hero-title-main {
+        /* Usando clamp para o texto se adaptar à tela e não cortar */
+        font-size: clamp(3.5rem, 8vw, 7rem);
         font-weight: 900;
-        line-height: 0.85;
-        margin: 0;
-        text-transform: uppercase;
-        font-family: 'Arial Black', Impact, sans-serif; /* Fonte pesada */
-    }
-
-    .hero-title-white {
-        color: #ffffff;
-        font-size: 8rem; /* Letra GIGANTE */
-        font-weight: 900;
-        line-height: 0.85;
+        line-height: 1.1; /* Ajuste no line-height para não cortar embaixo */
         margin: 0;
         text-transform: uppercase;
         font-family: 'Arial Black', Impact, sans-serif;
     }
 
     .hero-subtitle {
-        color: #aaaaaa;
+        color: #222222;
+        font-weight: 600;
         max-width: 600px;
         margin-top: 30px;
-        font-size: 0.95rem;
-        line-height: 1.6;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        border-left: 4px solid #ff0000;
+        padding-left: 15px;
     }
 
     .btn-start {
-        background-color: #ff0000;
+        background-color: #600000;
         color: white;
-        padding: 12px 35px;
+        padding: 15px 40px;
         font-weight: bold;
         border: none;
-        border-radius: 25px;
-        margin-top: 30px;
+        border-radius: 4px;
+        margin-top: 35px;
         text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 0.9rem;
+        letter-spacing: 2px;
+        font-size: 0.95rem;
         transition: 0.3s;
+        box-shadow: 0 4px 15px rgba(96, 0, 0, 0.4);
     }
 
         .btn-start:hover {
-            background-color: #cc0000;
-            color: white;
+            background-color: #ff0000;
+            transform: translateY(-2px);
         }
 </style>
 
 <div class="hero-section">
     <div class="container px-5">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-8">
-                <p class="official-guide">— OFFICIAL TOURISM GUIDE EST. 1867</p>
 
-                <h1 class="hero-title-red led-red">CONHEÇA</h1>
-                <h1 class="hero-title-white">CANADA</h1>
+                <p style="color: #600000; font-weight: bold; letter-spacing: 2px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg" style="height: 15px; margin-right: 8px;">
+                    OFFICIAL TOURISM GUIDE
+                </p>
 
-                <div class="hero-subtitle row">
-                    <div class="col-md-6">
-                        <p>Das montanhas rochosas às antigas florestas boreais do norte, a natureza selvagem do Canadá se estende além da imaginação. Experimente 10 milhões de km² de beleza crua e indomável.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p>Descubra lagos glaciais refletindo céus cerúleos, e cidades que pulsam com uma cultura rica. O Canadá não é apenas um destino — é uma transformação.</p>
-                    </div>
+                <h1 class="hero-title-main text-vinho">CONHEÇA O</h1>
+                <h1 class="hero-title-main led-red-vivo">CANADÁ</h1>
+
+                <div class="hero-subtitle">
+                    Das montanhas rochosas às antigas florestas boreais do norte, a natureza selvagem do Canadá se estende além da imaginação. Descubra lagos glaciais, mitos inuítes e uma cultura raiz impressionante.
                 </div>
 
-                <button class="btn-start">START SEEKING ></button>
+                <a asp-controller="Home" asp-action="Historia" class="btn-start text-decoration-none d-inline-block">INICIAR JORNADA</a>
             </div>
         </div>
     </div>

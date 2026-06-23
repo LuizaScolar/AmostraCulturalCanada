@@ -4,21 +4,19 @@
 
 <style>
     .page-header {
-        background-color: #050505;
-        padding: 60px 0 30px 0;
-        border-bottom: 2px solid #ff0000;
-        margin-bottom: 50px;
-        background-image: linear-gradient(rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.95)), url('https://images.unsplash.com/photo-1534430480872-3498386e7856?q=80&w=2000&auto=format&fit=crop');
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1534430480872-3498386e7856?q=80&w=2000&auto=format&fit=crop');
         background-size: cover;
         background-position: center;
+        padding: 80px 0 50px 0;
+        border-bottom: 3px solid #ff0000;
+        margin-bottom: 60px;
     }
 
     .section-title {
-        color: #ff0000;
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .timeline {
@@ -26,7 +24,7 @@
         max-width: 900px;
         margin: 0 auto;
         padding-left: 30px;
-        border-left: 3px solid #333;
+        border-left: 3px solid #600000;
     }
 
     .timeline-item {
@@ -37,45 +35,48 @@
         .timeline-item::before {
             content: '';
             position: absolute;
-            left: -40px;
-            top: 0;
-            width: 17px;
-            height: 17px;
+            left: -41px;
+            top: 5px;
+            width: 19px;
+            height: 19px;
             border-radius: 50%;
             background-color: #ff0000;
-            border: 3px solid #0a0a0a;
+            border: 3px solid #ffffff;
+            box-shadow: 0 0 5px rgba(255,0,0,0.6); /* Sombra do led discreto */
         }
 
     .timeline-date {
-        color: #ff0000;
         font-weight: 900;
         font-size: 1.2rem;
         letter-spacing: 1px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
         display: block;
     }
 
     .timeline-content {
-        background-color: #111;
+        background-color: #ffffff;
+        border: 1px solid #e2e2e2;
         padding: 25px;
         border-radius: 4px;
-        transition: transform 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        transition: 0.3s ease;
     }
 
         .timeline-content:hover {
-            transform: translateX(10px);
-            background-color: #151515;
+            transform: translateX(8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+            border-color: #ff0000;
         }
 
     .timeline-title {
-        color: #ffffff;
+        color: #333333;
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1.35rem;
         margin-bottom: 15px;
     }
 
     .timeline-text {
-        color: #aaaaaa;
+        color: #555555;
         line-height: 1.7;
         font-size: 0.95rem;
         margin: 0;
@@ -85,55 +86,53 @@
         width: 100%;
         max-height: 300px;
         object-fit: cover;
-        border: 1px solid #222;
+        border: 1px solid #e0e0e0;
     }
 </style>
 
 <div class="page-header text-center">
     <div class="container">
-        <h1 class="section-title led-red">A FORJA DE UMA NAÇÃO</h1>
-        <p class="text-secondary mt-3">Dos primeiros passos no gelo à união de um território continental.</p>
+        <h1 class="section-title text-vinho">A FORJA DE UMA <span class="led-red-vivo">NAÇÃO</span></h1>
+        <p class="text-dark mt-2" style="font-weight: 600;">Dos passos ancestrais no gelo à união política em Confederação.</p>
     </div>
 </div>
 
 <div class="container px-4 mb-5">
     <div class="timeline">
-
         <div class="timeline-item">
             <div class="timeline-content">
-                <span class="timeline-date led-red">MILÊNIOS ATRÁS</span>
+                <span class="timeline-date led-red-vivo">MILÊNIOS ATRÁS</span>
                 <h3 class="timeline-title">Os Primeiros Habitantes</h3>
-                <img src="https://images.unsplash.com/photo-1544911845-1f34a3eb46b1?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Montanhas e Natureza Selvagem Originária">
-                <p class="timeline-text">Muito antes da chegada dos europeus, o território que hoje chamamos de Canadá era habitado por povos indígenas vibrantes e diversificados. Acredita-se que os ancestrais das <strong>Primeiras Nações</strong> cruzaram a ponte terrestre de Beringue (Beringia) vindos da Ásia. Eles formaram rotas comerciais complexas, tradições espirituais profundas e adaptaram-se perfeitamente aos climas extremos, do Ártico às planícies.</p>
+                <img src="https://images.unsplash.com/photo-1544911845-1f34a3eb46b1?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Natureza Indígena">
+                <p class="timeline-text">Muito antes da chegada dos europeus, o território que hoje chamamos de Canadá era habitado por povos indígenas vibrantes e diversificados. Acredita-se que os ancestrais das <strong>Primeiras Nações</strong> cruzaram a ponte terrestre de Beringue (Beringia) vindos da Ásia.</p>
             </div>
         </div>
 
         <div class="timeline-item">
             <div class="timeline-content">
-                <span class="timeline-date led-red">SÉCULO XI (~1000 d.C.)</span>
+                <span class="timeline-date text-vinho">SÉCULO XI (~1000 d.C.)</span>
                 <h3 class="timeline-title">O Contato Viking</h3>
-                <img src="https://images.unsplash.com/photo-1551244072-5d12893278ab?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Mar do Norte e Costas Rochosas">
-                <p class="timeline-text">Os primeiros europeus a pisarem no Canadá não foram ingleses nem franceses, mas sim os <strong>Vikings Nórdicos</strong>, liderados por Leif Erikson. Eles estabeleceram um pequeno assentamento chamado <em>L'Anse aux Meadows</em> na ilha de Terra Nova (Newfoundland). Embora o assentamento tenha durado pouco, provou que o Atlântico já havia sido cruzado muito antes de Colombo.</p>
+                <img src="https://images.unsplash.com/photo-1551244072-5d12893278ab?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Costas de Terra Nova">
+                <p class="timeline-text">Os primeiros europeus a pisarem no Canadá foram os <strong>Vikings Nórdicos</strong>, liderados por Leif Erikson. Eles estabeleceram um pequeno assentamento chamado <em>L'Anse aux Meadows</em> na ilha de Terra Nova (Newfoundland).</p>
             </div>
         </div>
 
         <div class="timeline-item">
             <div class="timeline-content">
-                <span class="timeline-date led-red">SÉCULOS XVI - XVII</span>
+                <span class="timeline-date led-red-vivo">SÉCULOS XVI - XVII</span>
                 <h3 class="timeline-title">A Nova França e o Comércio de Peles</h3>
-                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Florestas Densas de Pinheiros">
-                <p class="timeline-text">Exploradores como Jacques Cartier e Samuel de Champlain começaram a mapear o Rio São Lourenço, fundando a <strong>Nova França</strong> (atual Quebec). A espinha dorsal da economia tornou-se o frenético <em>Comércio de Peles</em> (principalmente de castor). Os lendários "Coureurs des bois" (corredores dos bosques) desbravaram o interior do continente, formando alianças vitais (e complexas) com os povos indígenas.</p>
+                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Florestas de Pinheiros">
+                <p class="timeline-text">Exploradores como Jacques Cartier e Samuel de Champlain começaram a mapear o Rio São Lourenço, fundando a <strong>Nova França</strong> (atual Quebec). A espinha dorsal da economia tornou-se o frenético <em>Comércio de Peles</em>.</p>
             </div>
         </div>
 
         <div class="timeline-item">
             <div class="timeline-content">
-                <span class="timeline-date led-red">1867</span>
+                <span class="timeline-date text-vinho">1867</span>
                 <h3 class="timeline-title">A Confederação</h3>
-                <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Estruturas Clássicas Antigas e Bandeira">
-                <p class="timeline-text">Após anos de disputas territoriais entre o Império Britânico, a França e os recém-formados Estados Unidos ao sul, as províncias britânicas da América do Norte decidiram se unir. Em 1º de julho de 1867, o <strong>Ato da América do Norte Britânica</strong> foi aprovado, criando oficialmente o <em>Domínio do Canadá</em>. A nação nasceu, unindo Ontário, Quebec, Nova Escócia e Novo Brunswick sob uma mesma bandeira e governo.</p>
+                <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded mb-3 timeline-img" alt="Bandeira e Prédios Históricos">
+                <p class="timeline-text">Após anos de disputas territoriais, as províncias britânicas da América do Norte uniram-se. Em 1º de julho de 1867, o <strong>Ato da América do Norte Britânica</strong> foi aprovado, criando oficialmente o <em>Domínio do Canadá</em>.</p>
             </div>
         </div>
-
     </div>
 </div>

@@ -5,27 +5,25 @@
 }
 
 <style>
-    /* FUNDO GIGANTE PARA A PÁGINA DE LOGIN */
     .login-page-wrapper {
-        background-image: linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.95)), url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=2000&auto=format&fit=crop');
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=2000&auto=format&fit=crop');
         background-size: cover;
         background-position: center;
-        min-height: 85vh; /* Ocupa a tela toda */
+        min-height: 90vh;
         display: flex;
         align-items: center;
         padding: 40px 0;
-        margin-top: -16px; /* Cola no menu */
     }
 
     .auth-container {
         max-width: 900px;
         margin: 0 auto;
-        background-color: rgba(17, 17, 17, 0.85); /* Fundo um pouco transparente */
-        backdrop-filter: blur(10px); /* Efeito de vidro borrado no fundo */
+        background-color: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(8px);
         border-radius: 8px;
-        border: 1px solid #333;
+        border: 1px solid #d0d0d0;
         overflow: hidden;
-        box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
     }
 
     .auth-box {
@@ -33,11 +31,10 @@
     }
 
     .auth-border-right {
-        border-right: 1px solid #333;
+        border-right: 1px solid #d0d0d0;
     }
 
     .auth-title {
-        color: #ff0000;
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -45,20 +42,20 @@
     }
 
     .form-control-custom {
-        background-color: rgba(26, 26, 26, 0.8) !important;
-        border: 1px solid #444 !important;
-        color: white !important;
+        background-color: rgba(255, 255, 255, 0.95) !important;
+        border: 1px solid #cccccc !important;
+        color: #333333 !important;
         padding: 12px !important;
         border-radius: 4px !important;
     }
 
         .form-control-custom:focus {
             border-color: #ff0000 !important;
-            box-shadow: none !important;
+            box-shadow: 0 0 5px rgba(255,0,0,0.2) !important;
         }
 
     .btn-auth {
-        background-color: #ff0000;
+        background-color: #600000;
         color: white;
         font-weight: bold;
         width: 100%;
@@ -71,11 +68,12 @@
     }
 
         .btn-auth:hover {
-            background-color: #cc0000;
+            background-color: #ff0000;
+            box-shadow: 0 4px 12px rgba(255,0,0,0.3);
         }
 
     .error-text {
-        color: #ff4d4d;
+        color: #cc0000;
         font-size: 0.85rem;
     }
 </style>
@@ -84,27 +82,27 @@
     <div class="container">
         @if (TempData["Sucesso"] != null)
         {
-            <div class="alert alert-success bg-dark text-success border-success text-center mb-4">
+            <div class="alert alert-success bg-white text-success border-success text-center mb-4 shadow-sm">
                 @TempData["Sucesso"]
             </div>
         }
 
         <div class="auth-container row g-0">
             <div class="col-md-6 auth-box auth-border-right">
-                <h2 class="auth-title led-red">Entrar</h2>
+                <h2 class="auth-title text-vinho">Entrar</h2>
 
                 @if (ViewBag.Erro != null)
                 {
-                    <div class="alert alert-danger bg-dark text-danger border-danger p-2 small">@ViewBag.Erro</div>
+                    <div class="alert alert-danger bg-white text-danger border-danger p-2 small shadow-sm">@ViewBag.Erro</div>
                 }
 
                 <form asp-action="Logar" method="post">
                     <div class="mb-3">
-                        <label class="form-label text-secondary small">E-mail</label>
+                        <label class="form-label text-muted small" style="font-weight:600;">E-mail</label>
                         <input type="email" name="email" class="form-control form-control-custom" required />
                     </div>
                     <div class="mb-3">
-                        <label class="form-label text-secondary small">Senha</label>
+                        <label class="form-label text-muted small" style="font-weight:600;">Senha</label>
                         <input type="password" name="senha" class="form-control form-control-custom" required />
                     </div>
                     <button type="submit" class="btn-auth">Acessar o Quiz</button>
@@ -112,25 +110,25 @@
             </div>
 
             <div class="col-md-6 auth-box">
-                <h2 class="auth-title led-red">Criar Conta</h2>
+                <h2 class="auth-title led-red-vivo">Criar Conta</h2>
 
                 <form asp-action="Registrar" method="post">
                     <div class="mb-3">
-                        <label class="form-label text-secondary small">Nome Completo</label>
+                        <label class="form-label text-muted small" style="font-weight:600;">Nome Completo</label>
                         <input asp-for="Nome" type="text" class="form-control form-control-custom" />
                         <span asp-validation-for="Nome" class="error-text"></span>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label text-secondary small">E-mail Válido</label>
+                        <label class="form-label text-muted small" style="font-weight:600;">E-mail Válido</label>
                         <input asp-for="Email" type="email" class="form-control form-control-custom" />
                         <span asp-validation-for="Email" class="error-text"></span>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label text-secondary small">Escolha uma Senha</label>
+                        <label class="form-label text-muted small" style="font-weight:600;">Escolha uma Senha</label>
                         <input asp-for="Senha" type="password" class="form-control form-control-custom" />
                         <span asp-validation-for="Senha" class="error-text"></span>
                     </div>
-                    <button type="submit" class="btn-auth" style="background-color: rgba(34,34,34,0.8); border: 1px solid #ff0000;">Cadastrar</button>
+                    <button type="submit" class="btn-auth" style="background-color: #ffffff; border: 2px solid #600000; color: #600000;">Cadastrar</button>
                 </form>
             </div>
         </div>

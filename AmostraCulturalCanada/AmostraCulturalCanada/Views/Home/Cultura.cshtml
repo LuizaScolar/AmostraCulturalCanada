@@ -4,48 +4,54 @@
 
 <style>
     .page-header {
-        background-color: #050505;
-        padding: 60px 0 30px 0;
-        border-bottom: 2px solid #ff0000;
-        margin-bottom: 40px;
+        /* Imagem de totens/cultura ao fundo com opacidade ajustada */
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1532372320572-cda25653a26d?q=80&w=2000&auto=format&fit=crop');
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0 50px 0;
+        border-bottom: 3px solid #ff0000;
+        margin-bottom: 50px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.02);
     }
 
     .section-title {
-        color: #ff0000;
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .topic-card {
-        background-color: #111;
-        border-left: 4px solid #ff0000;
+        background-color: #ffffff;
+        border: 1px solid #e2e2e2;
+        border-left: 5px solid #600000;
         padding: 25px;
         margin-bottom: 30px;
-        transition: 0.3s;
+        border-radius: 4px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+        transition: 0.3s ease;
     }
 
         .topic-card:hover {
-            background-color: #1a1a1a;
-            transform: translateX(10px);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            border-left-color: #ff0000;
         }
 
     .topic-title {
-        color: #fff;
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin-bottom: 15px;
     }
 
     .topic-text {
-        color: #aaaaaa;
+        color: #333333;
         line-height: 1.7;
         font-size: 0.95rem;
     }
-    /* Estilização para as imagens ficarem homogêneas */
+
     .card-img-custom {
-        border: 1px solid #222;
+        border: 1px solid #e0e0e0;
         max-height: 250px;
         width: 100%;
         object-fit: cover;
@@ -54,8 +60,8 @@
 
 <div class="page-header text-center">
     <div class="container">
-        <h1 class="section-title led-red">CULTURA ORIGINAL</h1>
-        <p class="text-secondary mt-3">A herança ancestral das Primeiras Nações, Inuítes, Métis e dos primeiros pioneiros.</p>
+        <h1 class="section-title text-vinho">CULTURA <span class="led-red-vivo">ORIGINAL</span></h1>
+        <p class="text-dark mt-2" style="font-weight: 600;">A herança ancestral das Primeiras Nações, Inuítes, Métis e pioneiros.</p>
     </div>
 </div>
 
@@ -63,58 +69,58 @@
     <div class="row">
         <div class="col-md-6">
             <div class="topic-card">
-                <h3 class="topic-title led-red">Língua Ancestral</h3>
-                <img src="https://images.unsplash.com/photo-1516414447565-b14be0adf13e?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Inscrições e Arte Ancestral">
-                <p class="topic-text">Antes do inglês e francês, o Canadá era habitado por centenas de dialetos indígenas. Destacam-se o <strong>Algonquiano</strong>, o <strong>Cree</strong>, o <strong>Ojibwe</strong> e o <strong>Inuktitut</strong> (falado pelos Inuítes no extremo norte ártico). A tradição oral era a forma primária de passar o conhecimento.</p>
+                <h3 class="topic-title text-vinho">Língua Ancestral</h3>
+                <img src="https://images.unsplash.com/photo-1516414447565-b14be0adf13e?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Arte Ancestral">
+                <p class="topic-text">Antes do inglês e francês, o Canadá era habitado por centenas de dialetos indígenas. Destacam-se o <strong>Algonquiano</strong>, o <strong>Cree</strong>, o <strong>Ojibwe</strong> e o <strong>Inuktitut</strong>. A tradição oral era a forma primária de passar o conhecimento.</p>
             </div>
         </div>
 
         <div class="col-md-6">
             <div class="topic-card">
-                <h3 class="topic-title led-red">Religião e Espiritualidade</h3>
-                <img src="https://images.unsplash.com/photo-1601933512613-2703f6f1c79a?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Elementos da Natureza e Espiritualidade">
-                <p class="topic-text">A espiritualidade raiz é baseada no <strong>Animismo</strong> (crença de que animais, plantas e rios possuem espíritos). A figura do "Grande Espírito" (Gitche Manitou) era central. Práticas envolviam xamanismo, tendas do suor (sweat lodges) e respeito profundo pelos ciclos da natureza, muito antes das missões católicas europeias.</p>
+                <h3 class="topic-title text-vinho">Religião e Espiritualidade</h3>
+                <img src="https://images.unsplash.com/photo-1601933512613-2703f6f1c79a?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Natureza Espiritual">
+                <p class="topic-text">A espiritualidade raiz é baseada no <strong>Animismo</strong> (crença de que animais, plantas e rios possuem espíritos). A figura do "Grande Espírito" (Gitche Manitou) era central. Práticas envolviam xamanismo e tendas do suor.</p>
             </div>
         </div>
 
         <div class="col-md-6">
             <div class="topic-card">
-                <h3 class="topic-title led-red">Comidas Típicas Pueris</h3>
-                <img src="https://images.unsplash.com/photo-1584346041274-9114777b7383?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Xarope de Bordo e Comida Rústica">
+                <h3 class="topic-title text-vinho">Comidas Típicas Pueris</h3>
+                <img src="https://images.unsplash.com/photo-1584346041274-9114777b7383?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Comida Rústica">
                 <p class="topic-text">
                     A dieta de sobrevivência incluía:<br>
-                    • <strong>Pemmican:</strong> Uma mistura ancestral de carne seca triturada, gordura animal e frutas vermelhas (mirtilos), que durava meses sem estragar.<br>
-                    • <strong>Bannock:</strong> O pão ázimo tradicional frito ou assado nas fogueiras.<br>
-                    • <strong>Xarope de Bordo (Maple Syrup):</strong> Foram os indígenas que descobriram como extrair e ferver a seiva das árvores de Maple.
+                    • <strong>Pemmican:</strong> Uma mistura ancestral de carne seca triturada, gordura animal e frutas vermelhas.<br>
+                    • <strong>Bannock:</strong> O pão ázimo tradicional frito.<br>
+                    • <strong>Xarope de Bordo (Maple Syrup):</strong> Foram os indígenas que descobriram como extrair a seiva.
                 </p>
             </div>
         </div>
 
         <div class="col-md-6">
             <div class="topic-card">
-                <h3 class="topic-title led-red">Roupas Tradicionais</h3>
-                <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Vestimentas Tradicionais e Pele">
-                <p class="topic-text">Adequadas para o frio extremo, as roupas eram feitas inteiramente de recursos naturais. Os indígenas usavam <strong>Pele de Veado e Camurça</strong> (Buckskin) adornadas com miçangas e espinhos de porco-espinho. Os Inuítes inventaram as <strong>Parkas</strong> pesadas e os <strong>Mukluks</strong> (botas macias) feitos de pele de foca e caribu para isolamento térmico.</p>
+                <h3 class="topic-title text-vinho">Roupas Tradicionais</h3>
+                <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Vestimentas">
+                <p class="topic-text">Adequadas para o frio extremo, as roupas eram feitas de recursos naturais. Usavam <strong>Pele de Veado e Camurça</strong> (Buckskin). Os Inuítes inventaram as <strong>Parkas</strong> pesadas e os <strong>Mukluks</strong> (botas macias).</p>
             </div>
         </div>
 
         <div class="col-md-6">
             <div class="topic-card">
-                <h3 class="topic-title led-red">Música e Danças Típicas</h3>
-                <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Rituais e Tambores em Fogueira">
+                <h3 class="topic-title text-vinho">Música e Danças Típicas</h3>
+                <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Rituais e Tambores">
                 <p class="topic-text">
-                    • <strong>Powwow:</strong> Encontros sagrados com tambores rítmicos marcantes que imitam as batidas do coração, acompanhados de danças circulares com trajes de penas.<br>
-                    • <strong>Canto de Garganta (Throat Singing):</strong> Prática tradicional Inuk onde duas mulheres cantam em dueto frente a frente, produzindo sons guturais que imitam o vento e os animais.<br>
-                    • <strong>Fiddle Music:</strong> A música de violino trazida pelos europeus, que se fundiu com a cultura nativa gerando as danças festivas do povo Métis (Jigging).
+                    • <strong>Powwow:</strong> Encontros sagrados com tambores rítmicos marcantes que imitam batidas do coração.<br>
+                    • <strong>Canto de Garganta:</strong> Prática Inuk onde duas mulheres cantam produzindo sons guturais.<br>
+                    • <strong>Fiddle Music:</strong> A música de violino trazida pelos europeus, gerando as danças do povo Métis.
                 </p>
             </div>
         </div>
 
         <div class="col-md-6">
             <div class="topic-card">
-                <h3 class="topic-title led-red">Esporte de Origem</h3>
-                <img src="https://images.unsplash.com/photo-1552667466-07770ae110d0?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Jogo de Campo Tradicional">
-                <p class="topic-text">Esqueça o hóquei moderno! O verdadeiro esporte raiz canadense é o <strong>Lacrosse</strong>. Criado pelos povos algonquianos como um ritual de preparação para a guerra e cura, era chamado de "O Jogo do Criador". Chegava a durar dias, com centenas de guerreiros jogando em campos que tinham quilômetros de extensão.</p>
+                <h3 class="topic-title text-vinho">Esporte de Origem</h3>
+                <img src="https://images.unsplash.com/photo-1552667466-07770ae110d0?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded mb-3 card-img-custom" alt="Lacrosse">
+                <p class="topic-text">Esqueça o hóquei moderno! O verdadeiro esporte raiz canadense é o <strong>Lacrosse</strong>. Criado pelos povos algonquianos como um ritual de preparação para a guerra e cura, era chamado de "O Jogo do Criador".</p>
             </div>
         </div>
     </div>

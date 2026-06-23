@@ -5,119 +5,129 @@
 <style>
     .quiz-container {
         max-width: 800px;
-        margin: 50px auto;
-        background-color: #111;
+        margin: 60px auto;
+        background-color: #ffffff;
         border-radius: 8px;
-        border-top: 4px solid #ff0000;
+        border-top: 5px solid #ff0000;
         padding: 40px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+        border-left: 1px solid #e2e2e2;
+        border-right: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2;
     }
+
     .quiz-header {
         text-align: center;
         margin-bottom: 30px;
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid #eee;
         padding-bottom: 20px;
     }
+
     .question-title {
-        color: #fff;
-        font-size: 1.5rem;
+        color: #333333;
+        font-size: 1.4rem;
         font-weight: bold;
         margin-bottom: 25px;
     }
+
     .option-btn {
         display: block;
         width: 100%;
         text-align: left;
-        background-color: #1a1a1a;
-        color: #aaaaaa;
-        border: 1px solid #333;
+        background-color: #f9f9f9;
+        color: #444444;
+        border: 1px solid #dddddd;
         padding: 15px 20px;
         margin-bottom: 15px;
         border-radius: 5px;
         font-size: 1.1rem;
-        transition: 0.3s;
+        transition: 0.2s ease;
         cursor: pointer;
+        font-weight: 500;
     }
-    .option-btn:hover {
-        background-color: #2a2a2a;
-        color: #fff;
-        border-color: #ff0000;
-    }
-    .option-btn.selected {
-        background-color: #ff0000;
-        color: #fff;
-        border-color: #ff0000;
-    }
+
+        .option-btn:hover {
+            background-color: #f1f1f1;
+            border-color: #600000;
+            color: #600000;
+        }
+
+        .option-btn.selected {
+            background-color: #600000;
+            color: #ffffff;
+            border-color: #600000;
+        }
+
     .btn-next {
         background-color: #ff0000;
         color: white;
         border: none;
-        padding: 10px 30px;
+        padding: 12px 35px;
         font-weight: bold;
-        border-radius: 25px;
+        border-radius: 4px;
         text-transform: uppercase;
         margin-top: 20px;
-        display: none; /* Fica escondido até escolher uma opção */
+        display: none;
+        box-shadow: 0 4px 10px rgba(255,0,0,0.2);
     }
+
     .result-box {
         text-align: center;
         display: none;
     }
+
     .score-text {
         color: #ff0000;
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: 900;
+        text-shadow: 0 0 4px rgba(255,0,0,0.4);
     }
 </style>
 
 <div class="container">
     <div class="quiz-container">
-
         <div class="quiz-header" id="quizHeader">
-            <h2 class="led-red" style="color: #ff0000; font-weight: 800;">DESAFIO DAS RAÍZES</h2>
-            <p class="text-secondary">Bem-vindo(a), <strong>@ViewBag.NomeUsuario</strong>! Teste seus conhecimentos sobre a cultura do Canadá.</p>
+            <h2 class="text-vinho" style="font-weight: 800;">DESAFIO DAS <span class="led-red-vivo">RAÍZES</span></h2>
+            <p class="text-muted">Bem-vindo(a), <strong>@ViewBag.NomeUsuario</strong>! Teste o que aprendeu.</p>
         </div>
 
         <div id="quizArea">
-            <h3 class="question-title led-red" id="questionText">Carregando pergunta...</h3>
-            <div id="optionsArea">
-            </div>
+            <h3 class="question-title" id="questionText">Carregando...</h3>
+            <div id="optionsArea"></div>
             <div class="text-end">
-                <button class="btn-next led-red" id="btnNext" onclick="nextQuestion()">Próxima Pergunta ></button>
+                <button class="btn-next" id="btnNext" onclick="nextQuestion()">Próxima ></button>
             </div>
         </div>
 
         <div class="result-box" id="resultArea">
-            <h2 class="led-red" style="color: white; font-weight: bold;">SEU RESULTADO</h2>
+            <h2 class="text-vinho" style="font-weight: bold;">SEU RESULTADO</h2>
             <div class="score-text" id="scoreDisplay">0/5</div>
-            <p class="text-secondary mt-3" id="feedbackText"></p>
-            <a href="@Url.Action("Index", "Home")" class="btn btn-outline-light mt-4">Voltar para a Home</a>
-            <a href="@Url.Action("Logout", "Home")" class="btn btn-danger mt-4 ms-2">Sair (Logout)</a>
+            <p class="text-muted mt-3" id="feedbackText" style="font-weight:500;"></p>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-outline-dark mt-4">Voltar à Home</a>
+            <a href="@Url.Action("Logout", "Home")" class="btn btn-danger mt-4 ms-2">Logout</a>
         </div>
-
     </div>
 </div>
 
 <script>
-    // As perguntas baseadas na pesquisa que fizemos nas páginas anteriores
     const questions = [
         {
             question: "Qual é o verdadeiro esporte raiz canadense, criado pelos povos algonquianos?",
             options: ["Hóquei no Gelo", "Lacrosse", "Futebol Americano", "Curling"],
-            correctAnswer: 1 // Índice do array (0 = Hóquei, 1 = Lacrosse...)
-        },
-        {
-            question: "O que é o Pemmican, tradicional alimento de sobrevivência?",
-            options: ["Uma bebida quente de ervas", "Um pão doce frito", "Mistura de carne seca, gordura e mirtilos", "Sopa de peixe do ártico"],
-            correctAnswer: 2
-        },
-        {
-            question: "Na lenda franco-canadense 'La Chasse-galerie', o que os madeireiros fizeram voar?",
-            options: ["Um trenó de cães", "Uma canoa", "Um machado mágico", "Uma cabana de madeira"],
             correctAnswer: 1
         },
         {
-            question: "Na mitologia Inuit, qual criatura aterrorizante vive nas águas congeladas do Ártico?",
+            question: "O que é o Pemmican, tradicional alimento de sobrevivência?",
+            options: ["Uma bebida de ervas", "Um pão doce frito", "Mistura de carne seca, gordura e mirtilos", "Sopa de peixe"],
+            correctAnswer: 2
+        },
+        {
+            question: "Na lenda 'La Chasse-galerie', o que os madeireiros fizeram voar?",
+            options: ["Um trenó de cães", "Uma canoa", "Um machado mágico", "Uma cabana"],
+            correctAnswer: 1
+        },
+        {
+            question: "Na mitologia Inuit, qual criatura vive nas águas congeladas do Ártico?",
             options: ["Wendigo", "Ogopogo", "Qalupalik", "Sasquatch"],
             correctAnswer: 2
         },
@@ -132,17 +142,14 @@
     let score = 0;
     let selectedOptionIndex = -1;
 
-    // Carrega a tela inicial do quiz
     function loadQuestion() {
         const q = questions[currentQuestionIndex];
         document.getElementById('questionText').innerText = `Pergunta ${currentQuestionIndex + 1}: ${q.question}`;
-
         const optionsArea = document.getElementById('optionsArea');
-        optionsArea.innerHTML = ''; // Limpa opções antigas
+        optionsArea.innerHTML = '';
         selectedOptionIndex = -1;
         document.getElementById('btnNext').style.display = 'none';
 
-        // Cria os botões para cada opção
         q.options.forEach((opt, index) => {
             const btn = document.createElement('button');
             btn.className = 'option-btn';
@@ -152,54 +159,33 @@
         });
     }
 
-    // Quando o usuário clica em uma opção
     function selectOption(index, buttonElement) {
         selectedOptionIndex = index;
-
-        // Remove a classe 'selected' de todos os botões
         const buttons = document.querySelectorAll('.option-btn');
         buttons.forEach(btn => btn.classList.remove('selected'));
-
-        // Adiciona no botão clicado
         buttonElement.classList.add('selected');
-
-        // Mostra o botão de próxima pergunta
         document.getElementById('btnNext').style.display = 'inline-block';
-
         if (currentQuestionIndex === questions.length - 1) {
             document.getElementById('btnNext').innerText = 'Ver Resultado Final';
         }
     }
 
-    // Ir para a próxima ou finalizar
     function nextQuestion() {
-        if (selectedOptionIndex === questions[currentQuestionIndex].correctAnswer) {
-            score++;
-        }
-
+        if (selectedOptionIndex === questions[currentQuestionIndex].correctAnswer) { score++; }
         currentQuestionIndex++;
-
-        if (currentQuestionIndex < questions.length) {
-            loadQuestion();
-        } else {
-            showResult();
-        }
+        if (currentQuestionIndex < questions.length) { loadQuestion(); } else { showResult(); }
     }
 
-    // Exibe a tela final
     function showResult() {
         document.getElementById('quizArea').style.display = 'none';
         document.getElementById('quizHeader').style.display = 'none';
         document.getElementById('resultArea').style.display = 'block';
-
         document.getElementById('scoreDisplay').innerText = `${score}/${questions.length}`;
-
         const feedback = document.getElementById('feedbackText');
-        if(score === 5) feedback.innerText = "Perfeito! Você é um verdadeiro especialista na cultura raiz canadense!";
-        else if(score >= 3) feedback.innerText = "Muito bom! Você absorveu bem o conhecimento da nossa pesquisa.";
-        else feedback.innerText = "Foi por pouco! Que tal dar mais uma lida nas nossas páginas de Cultura e Folclore?";
+        if(score === 5) feedback.innerText = "Perfeito! É um verdadeiro especialista na cultura raiz canadense!";
+        else if(score >= 3) feedback.innerText = "Muito bom! Absorveu bem o conhecimento da nossa pesquisa.";
+        else feedback.innerText = "Foi por pouco! Que tal dar mais uma leitura nas páginas de Cultura e Folclore?";
     }
 
-    // Inicia o Quiz assim que a página carregar
     window.onload = loadQuestion;
 </script>

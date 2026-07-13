@@ -15,7 +15,6 @@ C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\Am
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\AmostraCulturalCanada.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\AmostraCulturalCanada.RazorAssemblyInfo.cache
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\AmostraCulturalCanada.RazorAssemblyInfo.cs
-C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\AmostraCulturalCanada.sourcelink.json
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

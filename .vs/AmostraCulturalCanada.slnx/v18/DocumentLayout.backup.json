@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\wwwroot\\css\\quiz.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\wwwroot\\css\\quiz.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\wwwroot\\css\\historia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\wwwroot\\css\\historia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\wwwroot\\css\\folclore.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\wwwroot\\css\\folclore.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\wwwroot\\css\\cultura.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\wwwroot\\css\\cultura.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|c:\\users\\scola\\desktop\\sitecanada\\amostraculturalcanada\\amostraculturalcanada\\amostraculturalcanada\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B4A2C3F6-CB54-B401-9E08-F250C7CFBB98}|AmostraCulturalCanada\\AmostraCulturalCanada.csproj|solutionrelative:amostraculturalcanada\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -75,6 +99,157 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "quiz.css",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\quiz.css",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\wwwroot\\css\\quiz.css",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\quiz.css",
+              "RelativeToolTip": "AmostraCulturalCanada\\wwwroot\\css\\quiz.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-13T15:14:42.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "AmostraCulturalCanada\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-13T15:14:33.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "AmostraCulturalCanada\\wwwroot\\css\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-13T15:14:20.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "historia.css",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\historia.css",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\wwwroot\\css\\historia.css",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\historia.css",
+              "RelativeToolTip": "AmostraCulturalCanada\\wwwroot\\css\\historia.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-13T15:14:11.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "folclore.css",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\folclore.css",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\wwwroot\\css\\folclore.css",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\folclore.css",
+              "RelativeToolTip": "AmostraCulturalCanada\\wwwroot\\css\\folclore.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-13T15:13:47.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cultura.css",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\cultura.css",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\wwwroot\\css\\cultura.css",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\cultura.css",
+              "RelativeToolTip": "AmostraCulturalCanada\\wwwroot\\css\\cultura.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-13T15:13:10.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Historia.cshtml",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
+              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAiwIkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-21T20:43:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-21T21:06:11.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-21T20:17:35.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cultura.cshtml",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
+              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-21T20:29:50.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Quiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
+              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAswL4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-21T21:15:19.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-21T20:11:04.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\wwwroot\\css\\site.css",
@@ -87,81 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Historia.cshtml",
-              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
-              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
-              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
-              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Historia.cshtml",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAiwIkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-21T20:43:53.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-21T21:06:11.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-21T20:17:35.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cultura.cshtml",
-              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
-              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
-              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
-              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Cultura.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-21T20:29:50.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Quiz.cshtml",
-              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
-              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
-              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
-              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Home\\Quiz.cshtml",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAswL4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-21T21:15:19.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AmostraCulturalCanada\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-21T20:11:04.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Folclore.cshtml",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Folclore.cshtml",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Folclore.cshtml",
@@ -173,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Views\\Home\\Privacy.cshtml",
@@ -185,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Controllers\\HomeController.cs",
@@ -197,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Program.cs",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Program.cs",
@@ -209,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "20260621205524_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Migrations\\20260621205524_Inicial.cs",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Migrations\\20260621205524_Inicial.cs",
@@ -221,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\appsettings.json",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\appsettings.json",
@@ -233,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Models\\AppDbContext.cs",
@@ -245,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "AmostraCulturalCanada\\Models\\Usuario.cs",

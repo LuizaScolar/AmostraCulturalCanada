@@ -2,61 +2,8 @@
     ViewData["Title"] = "Cultura";
 }
 
-<style>
-    .page-header {
-        /* Imagem de totens/cultura ao fundo com opacidade ajustada */
-        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1532372320572-cda25653a26d?q=80&w=2000&auto=format&fit=crop');
-        background-size: cover;
-        background-position: center;
-        padding: 80px 0 50px 0;
-        border-bottom: 3px solid #ff0000;
-        margin-bottom: 50px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.02);
-    }
-
-    .section-title {
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 2.2rem;
-    }
-
-    .topic-card {
-        background-color: #ffffff;
-        border: 1px solid #e2e2e2;
-        border-left: 5px solid #600000;
-        padding: 25px;
-        margin-bottom: 30px;
-        border-radius: 4px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.04);
-        transition: 0.3s ease;
-    }
-
-        .topic-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-            border-left-color: #ff0000;
-        }
-
-    .topic-title {
-        font-weight: bold;
-        font-size: 1.4rem;
-        margin-bottom: 15px;
-    }
-
-    .topic-text {
-        color: #333333;
-        line-height: 1.7;
-        font-size: 0.95rem;
-    }
-
-    .card-img-custom {
-        border: 1px solid #e0e0e0;
-        max-height: 250px;
-        width: 100%;
-        object-fit: cover;
-    }
-</style>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/cultura.css" asp-append-version="true" />
 
 <div class="page-header text-center">
     <div class="container">

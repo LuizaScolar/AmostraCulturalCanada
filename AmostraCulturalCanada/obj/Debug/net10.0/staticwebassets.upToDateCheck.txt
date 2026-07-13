@@ -1,3 +1,10 @@
+wwwroot\css\cultura.css
+wwwroot\css\folclore.css
+wwwroot\css\historia.css
+wwwroot\css\index.css
+wwwroot\css\login.css
+wwwroot\css\quiz.css
+wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -60,7 +67,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\site.css
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\favicon.ico
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\js\site.js
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -122,4 +129,9 @@ C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\Am
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\site.css
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\cultura.css
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\folclore.css
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\historia.css
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\index.css
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\login.css
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\wwwroot\css\quiz.css

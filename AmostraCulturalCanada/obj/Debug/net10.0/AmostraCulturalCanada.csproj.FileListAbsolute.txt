@@ -223,3 +223,9 @@ C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\Am
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\AmostraCulturalCanada.csproj.AssemblyReference.cache
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\AmostraC.FBEC0046.Up2Date
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\f1q4sljygp-{0}-y9pis8ymqe-y9pis8ymqe.gz
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\b1wzff8m1h-{0}-oprvqw0ewe-oprvqw0ewe.gz
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\yqxxa9ajjk-{0}-mzzojvbjeh-mzzojvbjeh.gz
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\ppqhtx3sly-{0}-7khww3m5hl-7khww3m5hl.gz
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\7uqi7g6g88-{0}-8lmczkf3xl-8lmczkf3xl.gz
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\8pxqmabhue-{0}-mpzla4frp6-mpzla4frp6.gz
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\guyhkgmyku-{0}-1aua84vq2k-1aua84vq2k.gz

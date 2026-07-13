@@ -2,86 +2,9 @@
     ViewData["Title"] = "Folclore e Lendas";
 }
 
-<style>
-    .page-header {
-        /* Fundo com opacidade reduzida para ver melhor a floresta escura */
-        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.85)), url('https://images.unsplash.com/photo-1542662565-7e4b66bae529?q=80&w=2000&auto=format&fit=crop');
-        background-size: cover;
-        background-position: center;
-        padding: 80px 0 50px 0;
-        border-bottom: 3px solid #ff0000;
-        margin-bottom: 50px;
-    }
 
-    .section-title {
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 2.2rem;
-    }
-
-    .legend-card {
-        background-color: #ffffff;
-        border: 1px solid #e2e2e2;
-        padding: 30px;
-        margin-bottom: 30px;
-        border-radius: 5px;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.04);
-        transition: 0.3s ease;
-    }
-
-        .legend-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background-color: #600000;
-            transform: scaleX(0.3);
-            transition: transform 0.4s ease, background-color 0.4s;
-        }
-
-        .legend-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-        }
-
-            .legend-card:hover::before {
-                transform: scaleX(1);
-                background-color: #ff0000;
-            }
-
-    .legend-title {
-        font-weight: 900;
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-        text-transform: uppercase;
-    }
-
-    .legend-origin {
-        font-size: 0.8rem;
-        font-weight: bold;
-        letter-spacing: 1px;
-        margin-bottom: 15px;
-        display: inline-block;
-    }
-
-    .legend-text {
-        color: #333333;
-        line-height: 1.6;
-        font-size: 0.95rem;
-    }
-
-    .legend-img {
-        width: 100%;
-        max-height: 220px;
-        object-fit: cover;
-        border: 1px solid #e0e0e0;
-    }
-</style>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/folclore.css" asp-append-version="true" />
 
 <div class="page-header text-center">
     <div class="container">

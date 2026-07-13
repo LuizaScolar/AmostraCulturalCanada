@@ -229,3 +229,4 @@ C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\Am
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\7uqi7g6g88-{0}-8lmczkf3xl-8lmczkf3xl.gz
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\8pxqmabhue-{0}-mpzla4frp6-mpzla4frp6.gz
 C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\guyhkgmyku-{0}-1aua84vq2k-1aua84vq2k.gz
+C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\obj\Debug\net10.0\compressed\fle74ot9qv-{0}-7hppvxsa5s-7hppvxsa5s.gz

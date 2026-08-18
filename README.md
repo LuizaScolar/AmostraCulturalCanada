@@ -5,7 +5,7 @@ Projeto criado para Amostra Cultural da ETEC Prof. Basilides de Godoy com o tema
  
  Membros:
  
- Luiza Scolar Pereira de Souza: Líder suprema.
+ Luiza Scolar Pereira de Souza: Líder.
  
  Débora Lopes: Pesquisa.
  

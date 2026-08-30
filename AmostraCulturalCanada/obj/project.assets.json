@@ -3095,11 +3095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada.csproj",
+      "projectUniqueName": "C:\\Users\\scola\\Desktop\\AmostraCultural\\AmostraCulturalCanada\\AmostraCulturalCanada.csproj",
       "projectName": "AmostraCulturalCanada",
-      "projectPath": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada.csproj",
+      "projectPath": "C:\\Users\\scola\\Desktop\\AmostraCultural\\AmostraCulturalCanada\\AmostraCulturalCanada.csproj",
       "packagesPath": "C:\\Users\\scola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\obj\\",
+      "outputPath": "C:\\Users\\scola\\Desktop\\AmostraCultural\\AmostraCulturalCanada\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

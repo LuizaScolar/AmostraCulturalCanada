@@ -20,61 +20,61 @@ build_property.TargetFrameworkVersion = v10.0
 build_property.EntryPointFilePath = 
 build_property.RootNamespace = AmostraCulturalCanada
 build_property.RootNamespace = AmostraCulturalCanada
-build_property.ProjectDir = C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada\
+build_property.ProjectDir = C:\Users\scola\Desktop\AmostraCultural\AmostraCulturalCanada\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\scola\Desktop\SiteCanada\AmostraCulturalCanada\AmostraCulturalCanada\AmostraCulturalCanada
+build_property.MSBuildProjectDirectory = C:\Users\scola\Desktop\AmostraCultural\AmostraCulturalCanada
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Home/Cultura.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Home/Cultura.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdWx0dXJhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Home/Folclore.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Home/Folclore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb2xjbG9yZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Home/Historia.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Home/Historia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Home/Index.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Home/Login.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Home/Privacy.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Home/Quiz.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Home/Quiz.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWl6LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Shared/Error.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/_ViewImports.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/_ViewStart.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/scola/Desktop/SiteCanada/AmostraCulturalCanada/AmostraCulturalCanada/AmostraCulturalCanada/Views/Shared/_Layout.cshtml]
+[C:/Users/scola/Desktop/AmostraCultural/AmostraCulturalCanada/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uogbh5ing5

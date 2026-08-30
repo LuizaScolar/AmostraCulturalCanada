@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gVUpobZuY+g=",
+  "dgSpecHash": "z7NBe+zIBHI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\scola\\Desktop\\SiteCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada\\AmostraCulturalCanada.csproj",
+  "projectFilePath": "C:\\Users\\scola\\Desktop\\AmostraCultural\\AmostraCulturalCanada\\AmostraCulturalCanada.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\scola\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\scola\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

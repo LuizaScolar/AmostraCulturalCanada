@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmostraCulturalCanada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+541edea251fea787cd833a1f37fdbb78e48de6f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2a62e4d68297a774bf781ffb216f3b0e3d7e965")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmostraCulturalCanada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmostraCulturalCanada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
